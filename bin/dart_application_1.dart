@@ -10,7 +10,6 @@ void main() {
   Student student = Student(
       gpa: 4.5, id: "12345654321", age: 20, name: "yazan", salary: 30.000);
   student.printInfo();
-
   if (student.gpaTF()) {
     print("${student.name} is on the second honor roll.");
   } else {
